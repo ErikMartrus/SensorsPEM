@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "994225322467",
+    "firebase_url": "https://pemseriesmania.firebaseio.com",
+    "project_id": "pemseriesmania",
+    "storage_bucket": "pemseriesmania.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994225322467:android:ae01e759835e8092",
+        "android_client_info": {
+          "package_name": "tema4.pem.seriesmania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994225322467-9mdrc9ln5q1eopnlth96anlslnmrbsdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tema4.pem.seriesmania",
+            "certificate_hash": "29ebd9241c186113e370f81fb62937f8820e57c3"
+          }
+        },
+        {
+          "client_id": "994225322467-37vglq9p0khd3ib2fj1eues89pma161r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD3z5dXP4N_0pLpIqqzREkmih7xV4Y3i4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994225322467-37vglq9p0khd3ib2fj1eues89pma161r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
