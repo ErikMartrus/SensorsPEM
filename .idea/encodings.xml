@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/Adaptador.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/Adaptador.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/FragmentoDetalle.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/FragmentoDetalle.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/FragmentoMaestro.java" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/FragmentoMaestro.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/VistaPrincipal.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/model/AccessFileHome.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/model/IModelHome.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/model/ItemFavorites.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/model/ModelHome.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/model/SetOfFavorites.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/presenter/IPresenterHome.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/presenter/PresenterHome.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/view/AdapterHome.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/view/FragmentDetailHome.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/view/FragmentMasterHome.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/home/view/IViewHome.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/model/AccessFileSeries.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/model/IModeloSeries.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/model/ItemSeries.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/model/ModeloSeries.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/model/SetOfSeries.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/presenter/IPresenterSeries.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/presenter/PresenterSeries.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/view/AdapterSeries.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/view/FragmentDetailSeries.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/view/FragmentMasterSeries.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/tema4/pem/seriesmania/series/view/IViewSeries.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_fragmento_detalle.xml" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_fragmento_maestro.xml" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_vista_principal.xml" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_item_maestro.xml" charset="ISO-8859-1" />
   </component>
 </project>

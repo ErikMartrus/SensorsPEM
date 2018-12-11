@@ -7,8 +7,18 @@
     android:layout_height="match_parent">
 
 
+    <FrameLayout
+        android:id="@+id/contenedorDeFragmentos"
+        android:layout_width="match_parent"
+        android:layout_height="448dp"
+        app:layout_constraintBottom_toTopOf="@+id/include"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
 
     <include
+        android:id="@+id/include"
         layout="@layout/menu"
         android:layout_width="match_parent"
         android:layout_height="60dp"

@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import tema4.pem.seriesmania.AppMediador;
 import tema4.pem.seriesmania.R;
-import tema4.pem.seriesmania.home.HomeActivity;
+import tema4.pem.seriesmania.home.view.HomeActivity;
 import tema4.pem.seriesmania.register.RegisterActivity;
 
 public class LoginActivity extends AppCompatActivity implements IViewLogin{

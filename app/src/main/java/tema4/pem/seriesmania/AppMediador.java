@@ -9,6 +9,9 @@ import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 
 
+import tema4.pem.seriesmania.home.presenter.IPresenterHome;
+import tema4.pem.seriesmania.home.view.IViewHome;
+import tema4.pem.seriesmania.home.presenter.PresenterHome;
 import tema4.pem.seriesmania.login.IPresenterLogin;
 import tema4.pem.seriesmania.login.IViewLogin;
 import tema4.pem.seriesmania.login.LoginActivity;
@@ -17,6 +20,9 @@ import tema4.pem.seriesmania.register.IPresenterRegister;
 import tema4.pem.seriesmania.register.IViewRegister;
 import tema4.pem.seriesmania.register.PresenterRegister;
 import tema4.pem.seriesmania.register.RegisterActivity;
+import tema4.pem.seriesmania.series.presenter.IPresenterSeries;
+import tema4.pem.seriesmania.series.presenter.PresenterSeries;
+import tema4.pem.seriesmania.series.view.IViewSeries;
 
 
 //import pem.tema4.presentador.IPresentadorMapa;
@@ -32,6 +38,19 @@ public class AppMediador extends Application {
 	private IViewLogin viewLogin;
 	private IPresenterRegister presenterRegister;
 	private IViewRegister viewRegister;
+	// variables correspondientes a los presentadores, vistas y modelo
+	private IPresenterHome presenterHome;
+	private IViewHome viewHome;
+	private IPresenterSeries presentadorPrincipal;
+	private IViewSeries vistaPrincipal;
+
+	// constantes de comunicación, almacenamiento y petición
+	public static final String CLAVE_LISTA_RECETAS = "listaRecetas";
+	public static final String AVISO_DATOS_LISTOS = "pem.tema4.AVISO_DATOS_LISTOS";
+	public static final String CLAVE_DETALLE_RECETA = "detalleReceta";
+	public static final String AVISO_DETALLE_LISTO = "pem.tema4.AVISO_DETALLE_LISTO";
+	public static final String AVISO_DATOS_AGREGADOS = "pem.tema4.AVISO_DATOS_AGREGADOS";
+
 
 	// constantes de comunicación, almacenamiento y petición
 	public static final int ZOOM = 12; //este valor debería ser una preferencia de la aplicación, pero como no tenemos...
@@ -54,6 +73,42 @@ public class AppMediador extends Application {
 		return singleton;
 	}
 
+	public IPresenterHome getPresenterHome() {
+		if (presenterHome == null)
+			presenterHome = new PresenterHome();
+		return presenterHome;
+	}
+
+	public void removePresenterHome() {
+		presenterHome = null;
+	}
+
+	public IViewHome getViewHome() {
+		return viewHome;
+	}
+
+	public void setViewHome(IViewHome viewHome) {
+		this.viewHome = viewHome;
+	}
+
+	//////////////////////////SERIES////////////////////////////////
+	public IPresenterSeries getPresenterSeries() {
+		if (presentadorPrincipal == null)
+			presentadorPrincipal = new PresenterSeries();
+		return presentadorPrincipal;
+	}
+
+	public void removePresentadorPrincipal() {
+		presentadorPrincipal = null;
+	}
+
+	public IViewSeries getViewSeries() {
+		return vistaPrincipal;
+	}
+
+	public void setViewSeries(IViewSeries viewSeries) {
+		this.vistaPrincipal = viewSeries;
+	}
 
 	/*public void setVistaMapa(IVistaMapa vistaMapa) {
 		this.vistaMapa = vistaMapa;

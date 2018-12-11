@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import tema4.pem.seriesmania.AppMediador;
 import tema4.pem.seriesmania.R;
-import tema4.pem.seriesmania.home.HomeActivity;
+import tema4.pem.seriesmania.home.view.HomeActivity;
 
 public class RegisterActivity extends AppCompatActivity implements IViewRegister {
 
