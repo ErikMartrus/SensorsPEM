@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tema4.pem.seriesmania">
+    package="pem.trabajoCurso.SensoresPEM">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
 
     <application
@@ -12,9 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name="AppMediador">
+        android:name="pem.trabajoCurso.SensoresPEM.AppMediador">
         <activity
-            android:name=".home.view.HomeActivity"
+            android:name="pem.trabajoCurso.SensoresPEM.home.view.HomeActivity"
             android:label="@string/app_name">
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
@@ -24,7 +25,7 @@
         </activity>
 
         <activity
-            android:name=".series.view.SeriesActivity"
+            android:name="pem.trabajoCurso.SensoresPEM.series.view.SeriesActivity"
             android:label="@string/app_name">
             <!--<intent-filter>-->
             <!--<action android:name="android.intent.action.MAIN" />-->
@@ -34,7 +35,7 @@
         </activity>
 
         <activity
-            android:name=".register.RegisterActivity"
+            android:name="pem.trabajoCurso.SensoresPEM.register.RegisterActivity"
             android:label="@string/app_name">
             <!--<intent-filter>-->
             <!--<action android:name="android.intent.action.MAIN" />-->
@@ -44,7 +45,7 @@
         </activity>
 
         <activity
-            android:name=".login.LoginActivity"
+            android:name="pem.trabajoCurso.SensoresPEM.login.LoginActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
